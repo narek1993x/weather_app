@@ -90,8 +90,8 @@ const Header = memo(props => {
   const handleAutoCompleteChange = (e, value) => {
     if (value) {
       setAutoCompleteValue(value);
-      const cityWitoutSpace = value.description.replace(/\s/g, "");
-      const query = `q=${cityWitoutSpace}`;
+      const city = value.description.replace(/,.+/, "");
+      const query = `q=${city}`;
       dispatch(addCity({ query }));
     }
   };

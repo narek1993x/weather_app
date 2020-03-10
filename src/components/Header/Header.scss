@@ -1,0 +1,56 @@
+.Header {
+  & .HeaderBar {
+    background-color: #161e26;
+  }
+
+  & .HomeButton {
+    opacity: 0.6;
+
+    &:hover,
+    &.Active {
+      opacity: 1;
+    }
+  }
+
+  & .HeaderLinks {
+    flex-grow: 1;
+    display: inline-flex;
+
+    & .HeaderLink {
+      margin: 0 20px;
+      color: #fff;
+      opacity: 0.6;
+      font-size: 18px;
+      font-weight: 500;
+      text-decoration: none;
+
+      &:hover,
+      &.Active {
+        opacity: 1;
+      }
+
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+
+  & .HeaderSearch {
+    padding: 5px 0;
+
+    & .Search {
+      color: #fff;
+
+      & .MuiOutlinedInput-notchedOutline {
+        border-color: #fff;
+      }
+
+      & .MuiInputBase-input,
+      & .MuiInputLabel-outlined,
+      & .MuiAutocomplete-clearIndicator,
+      & .MuiAutocomplete-popupIndicator {
+        color: #fff;
+      }
+    }
+  }
+}

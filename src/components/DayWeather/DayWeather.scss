@@ -1,0 +1,60 @@
+.DayWeather {
+  display: flex;
+  padding: 15px;
+  height: calc(100vh - 200px);
+
+  & .RightSide {
+    flex: 1 1 50%;
+
+    & .Subtitle {
+      margin-top: 15px;
+    }
+
+    & .DayWeatherInfo {
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+      font-size: 15px;
+      font-weight: 600;
+
+      & .DayWeatherText {
+        display: flex;
+
+        & > div :first-child {
+          margin-right: 25px;
+        }
+      }
+
+      & .Divider {
+        width: 70%;
+      }
+
+      & .DayWeatherForeCastList {
+        display: flex;
+        flex-direction: column;
+
+        & .DayWeatherForeCastListItem {
+          display: flex;
+          margin-bottom: 5px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        
+          & > div:first-child {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  & .LeftSide {
+    flex: 1 1 50%;
+
+    #map {
+      height: 400px;  /* The height is 400 pixels */
+      width: 100%;  /* The width is the width of the web page */
+    }
+  }
+}

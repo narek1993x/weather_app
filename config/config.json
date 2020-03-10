@@ -1,0 +1,1154 @@
+{
+  "google_api": "https://maps.googleapis.com/maps/api/js",
+  "google_api_key": "YOUR_GOOGLE_API_KEY",
+  "weather_api": "https://api.openweathermap.org/data/2.5",
+  "weather_api_key": "YOUR_OPENWEATHERMAP_API_KEY",
+  "staticWeatherApiWeaklyResponse": {
+    "cod": "200",
+    "message": 0,
+    "cnt": 40,
+    "list": [
+      {
+        "dt": 1583787600,
+        "main": {
+          "temp": 279.07,
+          "feels_like": 276,
+          "temp_min": 276.29,
+          "temp_max": 279.07,
+          "pressure": 1018,
+          "sea_level": 1018,
+          "grnd_level": 997,
+          "humidity": 85,
+          "temp_kf": 2.78
+        },
+        "weather": [{ "id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n" }],
+        "clouds": { "all": 97 },
+        "wind": { "speed": 2.39, "deg": 151 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-09 21:00:00"
+      },
+      {
+        "dt": 1583798400,
+        "main": {
+          "temp": 278.63,
+          "feels_like": 275.81,
+          "temp_min": 276.54,
+          "temp_max": 278.63,
+          "pressure": 1016,
+          "sea_level": 1016,
+          "grnd_level": 995,
+          "humidity": 93,
+          "temp_kf": 2.09
+        },
+        "weather": [{ "id": 500, "main": "Rain", "description": "light rain", "icon": "10n" }],
+        "clouds": { "all": 98 },
+        "wind": { "speed": 2.27, "deg": 121 },
+        "rain": { "3h": 0.63 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-10 00:00:00"
+      },
+      {
+        "dt": 1583809200,
+        "main": {
+          "temp": 277.96,
+          "feels_like": 274.75,
+          "temp_min": 276.57,
+          "temp_max": 277.96,
+          "pressure": 1014,
+          "sea_level": 1014,
+          "grnd_level": 993,
+          "humidity": 98,
+          "temp_kf": 1.39
+        },
+        "weather": [{ "id": 501, "main": "Rain", "description": "moderate rain", "icon": "10n" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 2.84, "deg": 97 },
+        "rain": { "3h": 3.94 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-10 03:00:00"
+      },
+      {
+        "dt": 1583820000,
+        "main": {
+          "temp": 277.9,
+          "feels_like": 275.7,
+          "temp_min": 277.2,
+          "temp_max": 277.9,
+          "pressure": 1011,
+          "sea_level": 1011,
+          "grnd_level": 991,
+          "humidity": 99,
+          "temp_kf": 0.7
+        },
+        "weather": [{ "id": 501, "main": "Rain", "description": "moderate rain", "icon": "10d" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 1.43, "deg": 161 },
+        "rain": { "3h": 5 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-10 06:00:00"
+      },
+      {
+        "dt": 1583830800,
+        "main": {
+          "temp": 279.43,
+          "feels_like": 275.88,
+          "temp_min": 279.43,
+          "temp_max": 279.43,
+          "pressure": 1011,
+          "sea_level": 1011,
+          "grnd_level": 990,
+          "humidity": 96,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 500, "main": "Rain", "description": "light rain", "icon": "10d" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 3.66, "deg": 240 },
+        "rain": { "3h": 1.56 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-10 09:00:00"
+      },
+      {
+        "dt": 1583841600,
+        "main": {
+          "temp": 280.1,
+          "feels_like": 276.91,
+          "temp_min": 280.1,
+          "temp_max": 280.1,
+          "pressure": 1012,
+          "sea_level": 1012,
+          "grnd_level": 991,
+          "humidity": 88,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04d" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 2.98, "deg": 296 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-10 12:00:00"
+      },
+      {
+        "dt": 1583852400,
+        "main": {
+          "temp": 278.41,
+          "feels_like": 275.98,
+          "temp_min": 278.41,
+          "temp_max": 278.41,
+          "pressure": 1012,
+          "sea_level": 1012,
+          "grnd_level": 991,
+          "humidity": 91,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03d" }],
+        "clouds": { "all": 46 },
+        "wind": { "speed": 1.57, "deg": 9 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-10 15:00:00"
+      },
+      {
+        "dt": 1583863200,
+        "main": {
+          "temp": 277.12,
+          "feels_like": 275.3,
+          "temp_min": 277.12,
+          "temp_max": 277.12,
+          "pressure": 1013,
+          "sea_level": 1013,
+          "grnd_level": 992,
+          "humidity": 93,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04n" }],
+        "clouds": { "all": 63 },
+        "wind": { "speed": 0.44, "deg": 25 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-10 18:00:00"
+      },
+      {
+        "dt": 1583874000,
+        "main": {
+          "temp": 277.1,
+          "feels_like": 275.19,
+          "temp_min": 277.1,
+          "temp_max": 277.1,
+          "pressure": 1012,
+          "sea_level": 1012,
+          "grnd_level": 991,
+          "humidity": 94,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 0.6, "deg": 35 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-10 21:00:00"
+      },
+      {
+        "dt": 1583884800,
+        "main": {
+          "temp": 277.19,
+          "feels_like": 274.93,
+          "temp_min": 277.19,
+          "temp_max": 277.19,
+          "pressure": 1010,
+          "sea_level": 1010,
+          "grnd_level": 990,
+          "humidity": 94,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 1.12, "deg": 111 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-11 00:00:00"
+      },
+      {
+        "dt": 1583895600,
+        "main": {
+          "temp": 276.85,
+          "feels_like": 274.51,
+          "temp_min": 276.85,
+          "temp_max": 276.85,
+          "pressure": 1009,
+          "sea_level": 1009,
+          "grnd_level": 988,
+          "humidity": 95,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 1.19, "deg": 143 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-11 03:00:00"
+      },
+      {
+        "dt": 1583906400,
+        "main": {
+          "temp": 278.1,
+          "feels_like": 275.77,
+          "temp_min": 278.1,
+          "temp_max": 278.1,
+          "pressure": 1007,
+          "sea_level": 1007,
+          "grnd_level": 986,
+          "humidity": 93,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04d" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 1.42, "deg": 166 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-11 06:00:00"
+      },
+      {
+        "dt": 1583917200,
+        "main": {
+          "temp": 281.18,
+          "feels_like": 278.57,
+          "temp_min": 281.18,
+          "temp_max": 281.18,
+          "pressure": 1004,
+          "sea_level": 1004,
+          "grnd_level": 984,
+          "humidity": 77,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04d" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 1.91, "deg": 183 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-11 09:00:00"
+      },
+      {
+        "dt": 1583928000,
+        "main": {
+          "temp": 281.2,
+          "feels_like": 278.02,
+          "temp_min": 281.2,
+          "temp_max": 281.2,
+          "pressure": 1001,
+          "sea_level": 1001,
+          "grnd_level": 981,
+          "humidity": 83,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04d" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 3.03, "deg": 174 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-11 12:00:00"
+      },
+      {
+        "dt": 1583938800,
+        "main": {
+          "temp": 280.21,
+          "feels_like": 277.12,
+          "temp_min": 280.21,
+          "temp_max": 280.21,
+          "pressure": 999,
+          "sea_level": 999,
+          "grnd_level": 979,
+          "humidity": 92,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04d" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 3.06, "deg": 195 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-11 15:00:00"
+      },
+      {
+        "dt": 1583949600,
+        "main": {
+          "temp": 279.7,
+          "feels_like": 275.68,
+          "temp_min": 279.7,
+          "temp_max": 279.7,
+          "pressure": 998,
+          "sea_level": 998,
+          "grnd_level": 977,
+          "humidity": 83,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04n" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 3.83, "deg": 222 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-11 18:00:00"
+      },
+      {
+        "dt": 1583960400,
+        "main": {
+          "temp": 278.3,
+          "feels_like": 273.91,
+          "temp_min": 278.3,
+          "temp_max": 278.3,
+          "pressure": 997,
+          "sea_level": 997,
+          "grnd_level": 976,
+          "humidity": 91,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 500, "main": "Rain", "description": "light rain", "icon": "10n" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 4.33, "deg": 224 },
+        "rain": { "3h": 0.25 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-11 21:00:00"
+      },
+      {
+        "dt": 1583971200,
+        "main": {
+          "temp": 278.4,
+          "feels_like": 273.77,
+          "temp_min": 278.4,
+          "temp_max": 278.4,
+          "pressure": 996,
+          "sea_level": 996,
+          "grnd_level": 975,
+          "humidity": 92,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 500, "main": "Rain", "description": "light rain", "icon": "10n" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 4.75, "deg": 277 },
+        "rain": { "3h": 1.56 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-12 00:00:00"
+      },
+      {
+        "dt": 1583982000,
+        "main": {
+          "temp": 276.63,
+          "feels_like": 270.63,
+          "temp_min": 276.63,
+          "temp_max": 276.63,
+          "pressure": 998,
+          "sea_level": 998,
+          "grnd_level": 977,
+          "humidity": 80,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 500, "main": "Rain", "description": "light rain", "icon": "10n" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 5.81, "deg": 280 },
+        "rain": { "3h": 0.19 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-12 03:00:00"
+      },
+      {
+        "dt": 1583992800,
+        "main": {
+          "temp": 276.59,
+          "feels_like": 269.08,
+          "temp_min": 276.59,
+          "temp_max": 276.59,
+          "pressure": 1000,
+          "sea_level": 1000,
+          "grnd_level": 979,
+          "humidity": 73,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04d" }],
+        "clouds": { "all": 63 },
+        "wind": { "speed": 7.7, "deg": 277 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-12 06:00:00"
+      },
+      {
+        "dt": 1584003600,
+        "main": {
+          "temp": 277.99,
+          "feels_like": 270.56,
+          "temp_min": 277.99,
+          "temp_max": 277.99,
+          "pressure": 1001,
+          "sea_level": 1001,
+          "grnd_level": 980,
+          "humidity": 66,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 804, "main": "Clouds", "description": "overcast clouds", "icon": "04d" }],
+        "clouds": { "all": 100 },
+        "wind": { "speed": 7.58, "deg": 271 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-12 09:00:00"
+      },
+      {
+        "dt": 1584014400,
+        "main": {
+          "temp": 280.21,
+          "feels_like": 272.55,
+          "temp_min": 280.21,
+          "temp_max": 280.21,
+          "pressure": 1001,
+          "sea_level": 1001,
+          "grnd_level": 980,
+          "humidity": 57,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04d" }],
+        "clouds": { "all": 77 },
+        "wind": { "speed": 7.93, "deg": 254 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-12 12:00:00"
+      },
+      {
+        "dt": 1584025200,
+        "main": {
+          "temp": 278.81,
+          "feels_like": 271.81,
+          "temp_min": 278.81,
+          "temp_max": 278.81,
+          "pressure": 1000,
+          "sea_level": 1000,
+          "grnd_level": 979,
+          "humidity": 61,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 800, "main": "Clear", "description": "clear sky", "icon": "01d" }],
+        "clouds": { "all": 0 },
+        "wind": { "speed": 6.91, "deg": 247 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-12 15:00:00"
+      },
+      {
+        "dt": 1584036000,
+        "main": {
+          "temp": 278.3,
+          "feels_like": 271.45,
+          "temp_min": 278.3,
+          "temp_max": 278.3,
+          "pressure": 999,
+          "sea_level": 999,
+          "grnd_level": 978,
+          "humidity": 70,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03n" }],
+        "clouds": { "all": 48 },
+        "wind": { "speed": 6.98, "deg": 232 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-12 18:00:00"
+      },
+      {
+        "dt": 1584046800,
+        "main": {
+          "temp": 278.78,
+          "feels_like": 273.01,
+          "temp_min": 278.78,
+          "temp_max": 278.78,
+          "pressure": 996,
+          "sea_level": 996,
+          "grnd_level": 976,
+          "humidity": 81,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 500, "main": "Rain", "description": "light rain", "icon": "10n" }],
+        "clouds": { "all": 85 },
+        "wind": { "speed": 6.01, "deg": 232 },
+        "rain": { "3h": 0.13 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-12 21:00:00"
+      },
+      {
+        "dt": 1584057600,
+        "main": {
+          "temp": 279.6,
+          "feels_like": 272.31,
+          "temp_min": 279.6,
+          "temp_max": 279.6,
+          "pressure": 994,
+          "sea_level": 994,
+          "grnd_level": 973,
+          "humidity": 82,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 500, "main": "Rain", "description": "light rain", "icon": "10n" }],
+        "clouds": { "all": 92 },
+        "wind": { "speed": 8.42, "deg": 246 },
+        "rain": { "3h": 0.44 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-13 00:00:00"
+      },
+      {
+        "dt": 1584068400,
+        "main": {
+          "temp": 276.93,
+          "feels_like": 268.97,
+          "temp_min": 276.93,
+          "temp_max": 276.93,
+          "pressure": 995,
+          "sea_level": 995,
+          "grnd_level": 974,
+          "humidity": 59,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 601, "main": "Snow", "description": "snow", "icon": "13n" }],
+        "clouds": { "all": 67 },
+        "wind": { "speed": 7.88, "deg": 259 },
+        "snow": { "3h": 1.75 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-13 03:00:00"
+      },
+      {
+        "dt": 1584079200,
+        "main": {
+          "temp": 276.2,
+          "feels_like": 266.39,
+          "temp_min": 276.2,
+          "temp_max": 276.2,
+          "pressure": 996,
+          "sea_level": 996,
+          "grnd_level": 975,
+          "humidity": 54,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03d" }],
+        "clouds": { "all": 43 },
+        "wind": { "speed": 10.24, "deg": 260 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-13 06:00:00"
+      },
+      {
+        "dt": 1584090000,
+        "main": {
+          "temp": 277.74,
+          "feels_like": 267.55,
+          "temp_min": 277.74,
+          "temp_max": 277.74,
+          "pressure": 996,
+          "sea_level": 996,
+          "grnd_level": 976,
+          "humidity": 54,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04d" }],
+        "clouds": { "all": 67 },
+        "wind": { "speed": 11, "deg": 264 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-13 09:00:00"
+      },
+      {
+        "dt": 1584100800,
+        "main": {
+          "temp": 279.07,
+          "feels_like": 269.3,
+          "temp_min": 279.07,
+          "temp_max": 279.07,
+          "pressure": 998,
+          "sea_level": 998,
+          "grnd_level": 977,
+          "humidity": 46,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04d" }],
+        "clouds": { "all": 79 },
+        "wind": { "speed": 10.26, "deg": 269 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-13 12:00:00"
+      },
+      {
+        "dt": 1584111600,
+        "main": {
+          "temp": 277.13,
+          "feels_like": 269.89,
+          "temp_min": 277.13,
+          "temp_max": 277.13,
+          "pressure": 999,
+          "sea_level": 999,
+          "grnd_level": 978,
+          "humidity": 57,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 600, "main": "Snow", "description": "light snow", "icon": "13d" }],
+        "clouds": { "all": 74 },
+        "wind": { "speed": 6.81, "deg": 266 },
+        "snow": { "3h": 0.13 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-13 15:00:00"
+      },
+      {
+        "dt": 1584122400,
+        "main": {
+          "temp": 275.63,
+          "feels_like": 268.53,
+          "temp_min": 275.63,
+          "temp_max": 275.63,
+          "pressure": 1001,
+          "sea_level": 1001,
+          "grnd_level": 980,
+          "humidity": 65,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03n" }],
+        "clouds": { "all": 40 },
+        "wind": { "speed": 6.66, "deg": 259 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-13 18:00:00"
+      },
+      {
+        "dt": 1584133200,
+        "main": {
+          "temp": 275.03,
+          "feels_like": 268.03,
+          "temp_min": 275.03,
+          "temp_max": 275.03,
+          "pressure": 1002,
+          "sea_level": 1002,
+          "grnd_level": 981,
+          "humidity": 72,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 800, "main": "Clear", "description": "clear sky", "icon": "01n" }],
+        "clouds": { "all": 0 },
+        "wind": { "speed": 6.66, "deg": 262 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-13 21:00:00"
+      },
+      {
+        "dt": 1584144000,
+        "main": {
+          "temp": 273.17,
+          "feels_like": 266.68,
+          "temp_min": 273.17,
+          "temp_max": 273.17,
+          "pressure": 1005,
+          "sea_level": 1005,
+          "grnd_level": 984,
+          "humidity": 68,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 800, "main": "Clear", "description": "clear sky", "icon": "01n" }],
+        "clouds": { "all": 0 },
+        "wind": { "speed": 5.51, "deg": 279 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-14 00:00:00"
+      },
+      {
+        "dt": 1584154800,
+        "main": {
+          "temp": 271.95,
+          "feels_like": 265.39,
+          "temp_min": 271.95,
+          "temp_max": 271.95,
+          "pressure": 1007,
+          "sea_level": 1007,
+          "grnd_level": 986,
+          "humidity": 64,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04n" }],
+        "clouds": { "all": 67 },
+        "wind": { "speed": 5.35, "deg": 276 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-14 03:00:00"
+      },
+      {
+        "dt": 1584165600,
+        "main": {
+          "temp": 272.2,
+          "feels_like": 264.95,
+          "temp_min": 272.2,
+          "temp_max": 272.2,
+          "pressure": 1009,
+          "sea_level": 1009,
+          "grnd_level": 987,
+          "humidity": 53,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04d" }],
+        "clouds": { "all": 78 },
+        "wind": { "speed": 6.06, "deg": 295 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-14 06:00:00"
+      },
+      {
+        "dt": 1584176400,
+        "main": {
+          "temp": 273.29,
+          "feels_like": 265.93,
+          "temp_min": 273.29,
+          "temp_max": 273.29,
+          "pressure": 1011,
+          "sea_level": 1011,
+          "grnd_level": 989,
+          "humidity": 41,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 803, "main": "Clouds", "description": "broken clouds", "icon": "04d" }],
+        "clouds": { "all": 58 },
+        "wind": { "speed": 5.99, "deg": 301 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-14 09:00:00"
+      },
+      {
+        "dt": 1584187200,
+        "main": {
+          "temp": 273.1,
+          "feels_like": 265.32,
+          "temp_min": 273.1,
+          "temp_max": 273.1,
+          "pressure": 1011,
+          "sea_level": 1011,
+          "grnd_level": 990,
+          "humidity": 38,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03d" }],
+        "clouds": { "all": 39 },
+        "wind": { "speed": 6.49, "deg": 313 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-14 12:00:00"
+      },
+      {
+        "dt": 1584198000,
+        "main": {
+          "temp": 271.1,
+          "feels_like": 263.9,
+          "temp_min": 271.1,
+          "temp_max": 271.1,
+          "pressure": 1014,
+          "sea_level": 1014,
+          "grnd_level": 992,
+          "humidity": 36,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 802, "main": "Clouds", "description": "scattered clouds", "icon": "03d" }],
+        "clouds": { "all": 40 },
+        "wind": { "speed": 5.46, "deg": 326 },
+        "sys": { "pod": "d" },
+        "dt_txt": "2020-03-14 15:00:00"
+      },
+      {
+        "dt": 1584208800,
+        "main": {
+          "temp": 269.9,
+          "feels_like": 262.61,
+          "temp_min": 269.9,
+          "temp_max": 269.9,
+          "pressure": 1017,
+          "sea_level": 1017,
+          "grnd_level": 995,
+          "humidity": 34,
+          "temp_kf": 0
+        },
+        "weather": [{ "id": 801, "main": "Clouds", "description": "few clouds", "icon": "02n" }],
+        "clouds": { "all": 20 },
+        "wind": { "speed": 5.47, "deg": 333 },
+        "sys": { "pod": "n" },
+        "dt_txt": "2020-03-14 18:00:00"
+      }
+    ],
+    "city": {
+      "id": 524901,
+      "name": "Moscow",
+      "coord": { "lat": 55.7522, "lon": 37.6156 },
+      "country": "RU",
+      "population": 1000000,
+      "timezone": 10800,
+      "sunrise": 1583726393,
+      "sunset": 1583767223
+    }
+  },
+  "staticGoogleApiResponse": [
+    {
+      "description": "Gyumri, Armenia",
+      "id": "c0da481df2cd9f7c506841c759c7b3e90d2109e1",
+      "matched_substrings": [
+        {
+          "length": 6,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJn_w0m4v7QUARApH5RQ7tS08",
+      "reference": "ChIJn_w0m4v7QUARApH5RQ7tS08",
+      "structured_formatting": {
+        "main_text": "Gyumri",
+        "main_text_matched_substrings": [
+          {
+            "length": 6,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Armenia"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Gyumri"
+        },
+        {
+          "offset": 8,
+          "value": "Armenia"
+        }
+      ],
+      "types": ["locality", "political", "geocode"]
+    },
+    {
+      "description": "Gyumri Hotel, Gyumri, Armenia",
+      "id": "eadf957687b58cd8651dc522f1dc141a9b47b12d",
+      "matched_substrings": [
+        {
+          "length": 6,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJC6pLy8L7QUARsMcZsnrsxf0",
+      "reference": "ChIJC6pLy8L7QUARsMcZsnrsxf0",
+      "structured_formatting": {
+        "main_text": "Gyumri Hotel",
+        "main_text_matched_substrings": [
+          {
+            "length": 6,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Gyumri, Armenia"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Gyumri Hotel"
+        },
+        {
+          "offset": 14,
+          "value": "Gyumri"
+        },
+        {
+          "offset": 22,
+          "value": "Armenia"
+        }
+      ],
+      "types": ["lodging", "point_of_interest", "establishment"]
+    },
+    {
+      "description": "Gyumri's Fish Restaurant (Cherkezi Dzor), Gyumri, Armenia",
+      "id": "3483c050adeb643d4af4e5c10b55012d35bb9cc1",
+      "matched_substrings": [
+        {
+          "length": 6,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJTa8Nkfz7QUAR0eyees9gm5g",
+      "reference": "ChIJTa8Nkfz7QUAR0eyees9gm5g",
+      "structured_formatting": {
+        "main_text": "Gyumri's Fish Restaurant (Cherkezi Dzor)",
+        "main_text_matched_substrings": [
+          {
+            "length": 6,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Gyumri, Armenia"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Gyumri's Fish Restaurant (Cherkezi Dzor)"
+        },
+        {
+          "offset": 42,
+          "value": "Gyumri"
+        },
+        {
+          "offset": 50,
+          "value": "Armenia"
+        }
+      ],
+      "types": ["restaurant", "food", "point_of_interest", "establishment"]
+    },
+    {
+      "description": "Gyumri Hotel, Yerevan, Armenia",
+      "id": "e52b60cd3137c25c655b66704f3406c506868b3e",
+      "matched_substrings": [
+        {
+          "length": 6,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJrckFSKu9akARKnB2bAbeaPk",
+      "reference": "ChIJrckFSKu9akARKnB2bAbeaPk",
+      "structured_formatting": {
+        "main_text": "Gyumri Hotel",
+        "main_text_matched_substrings": [
+          {
+            "length": 6,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Yerevan, Armenia"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Gyumri Hotel"
+        },
+        {
+          "offset": 14,
+          "value": "Yerevan"
+        },
+        {
+          "offset": 23,
+          "value": "Armenia"
+        }
+      ],
+      "types": ["lodging", "point_of_interest", "establishment"]
+    },
+    {
+      "description": "Gyumri Railway Station, Gyumri, Armenia",
+      "id": "81d6302f683c8115a358459bd5fb0864c8ad825f",
+      "matched_substrings": [
+        {
+          "length": 6,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJAYbqQrn7QUARv22dmEA5Eb8",
+      "reference": "ChIJAYbqQrn7QUARv22dmEA5Eb8",
+      "structured_formatting": {
+        "main_text": "Gyumri Railway Station",
+        "main_text_matched_substrings": [
+          {
+            "length": 6,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Gyumri, Armenia"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Gyumri Railway Station"
+        },
+        {
+          "offset": 24,
+          "value": "Gyumri"
+        },
+        {
+          "offset": 32,
+          "value": "Armenia"
+        }
+      ],
+      "types": ["point_of_interest", "establishment"]
+    },
+    {
+      "description": "Moscow, Russia",
+      "id": "1a0f08fcbc047354782f00ab52e66fb56d1aadf7",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJybDUc_xKtUYRTM9XV8zWRD0",
+      "reference": "ChIJybDUc_xKtUYRTM9XV8zWRD0",
+      "structured_formatting": {
+        "main_text": "Moscow",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Russia"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Moscow"
+        },
+        {
+          "offset": 8,
+          "value": "Russia"
+        }
+      ],
+      "types": ["locality", "political", "geocode"]
+    },
+    {
+      "description": "Moscow, ID, USA",
+      "id": "a16063c08a41483bd41106ff095008f0b86b6a12",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJ0WHAIi0hoFQRbK3q5g0V_T4",
+      "reference": "ChIJ0WHAIi0hoFQRbK3q5g0V_T4",
+      "structured_formatting": {
+        "main_text": "Moscow",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "ID, USA"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Moscow"
+        },
+        {
+          "offset": 8,
+          "value": "ID"
+        },
+        {
+          "offset": 12,
+          "value": "USA"
+        }
+      ],
+      "types": ["locality", "political", "geocode"]
+    },
+    {
+      "description": "Moscavide, Portugal",
+      "id": "eccf87b7b762875e9acccce6e88ceb47dc1b8128",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJ4x9U8h8yGQ0RVUl9j4Z1i-g",
+      "reference": "ChIJ4x9U8h8yGQ0RVUl9j4Z1i-g",
+      "structured_formatting": {
+        "main_text": "Moscavide",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Portugal"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Moscavide"
+        },
+        {
+          "offset": 11,
+          "value": "Portugal"
+        }
+      ],
+      "types": ["locality", "political", "geocode"]
+    },
+    {
+      "description": "Mosciano Sant'Angelo, Province of Teramo, Italy",
+      "id": "8961959da88d37e1df1e27b22fa598b9b02853d9",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJr46O3ODsMRMRVoDdyi5UOvM",
+      "reference": "ChIJr46O3ODsMRMRVoDdyi5UOvM",
+      "structured_formatting": {
+        "main_text": "Mosciano Sant'Angelo",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Province of Teramo, Italy"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Mosciano Sant'Angelo"
+        },
+        {
+          "offset": 22,
+          "value": "Province of Teramo"
+        },
+        {
+          "offset": 42,
+          "value": "Italy"
+        }
+      ],
+      "types": ["locality", "political", "geocode"]
+    },
+    {
+      "description": "Moscow Mills, MO, USA",
+      "id": "df45f8865e9164273279e10d38efacd0d215d051",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJA280k5i_3ocRe-IAInh_ilY",
+      "reference": "ChIJA280k5i_3ocRe-IAInh_ilY",
+      "structured_formatting": {
+        "main_text": "Moscow Mills",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "MO, USA"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Moscow Mills"
+        },
+        {
+          "offset": 14,
+          "value": "MO"
+        },
+        {
+          "offset": 18,
+          "value": "USA"
+        }
+      ],
+      "types": ["locality", "political", "geocode"]
+    }
+  ]
+}

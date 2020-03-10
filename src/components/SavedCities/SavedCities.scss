@@ -1,0 +1,24 @@
+.SavedCities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+
+  & .SavedCitiesList {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    width: 100%;
+    height: calc(100vh - 325px);
+    overflow: auto;
+    margin-top: 20px;
+
+    & .Display {
+      width: 230px;
+      height: 150px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+  }
+}

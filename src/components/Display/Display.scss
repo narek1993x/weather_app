@@ -1,0 +1,79 @@
+.Display {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #161e26 !important;
+  min-width: 100px;
+  min-height: 100px;
+
+  &:hover {
+    & .RemoveIcon,
+    & .UpdateIcon {
+      display: block;
+    }
+  }
+
+  & .Celsius {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  & .DisplayTitle,
+  & .Info {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  & .Info {
+    padding-top: 10px;
+  }
+
+  & .RemoveIcon,
+  & .UpdateIcon {
+    position: absolute;
+    display: none;
+    color: #fff;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  & .UpdateIcon {
+    top: unset;
+    right: unset;
+    bottom: 20px;
+
+    &.Animate {
+      -webkit-animation: rotating .5s linear infinite;
+      -moz-animation: rotating .5s linear infinite;
+      -ms-animation: rotating .5s linear infinite;
+      -o-animation: rotating .5s linear infinite;
+      animation: rotating .5s linear infinite;
+    }
+  }
+}
+
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

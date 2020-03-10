@@ -1,0 +1,30 @@
+.DisplayWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin: 71px 5px 0;
+
+  &.MainDisplay {
+    height: 160px;
+  }
+
+  & .AlertMessage {
+    position: absolute;
+    opacity: 0;
+    right: 80px;
+    transition: opacity 1s;
+
+    &.Show {
+      display: flex;
+      opacity: 1;
+    }
+  }
+
+  & .AddCity {
+    position: absolute;
+    right: 12px;
+    color: #161e26;
+  }
+}
